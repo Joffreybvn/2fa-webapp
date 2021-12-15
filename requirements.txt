@@ -1,0 +1,7 @@
+streamlit
+streamlit-autorefresh
+Pillow
+pyzbar
+requests
+pyotp
+boto3

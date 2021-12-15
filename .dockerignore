@@ -1,0 +1,7 @@
+*
+
+!.streamlit
+!src
+!static
+!main.py
+!requirements.txt
