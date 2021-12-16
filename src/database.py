@@ -10,6 +10,7 @@ from .config import config
 
 dynamo_db = boto3.client(
     'dynamodb',
+    region_name=config.aws_region_name,
     aws_access_key_id=config.aws_access_key,
     aws_secret_access_key=config.aws_access_key_secret,
 )

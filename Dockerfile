@@ -14,9 +14,6 @@ EXPOSE 8501
 COPY . /opt/app
 WORKDIR /opt/app
 
-RUN mkdir ~/.streamlit
-RUN cp config.toml ~/.streamlit/config.toml
-
 # Install the app librairies.
 RUN pip install -r requirements.txt
 

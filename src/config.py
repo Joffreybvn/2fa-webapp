@@ -9,6 +9,7 @@ class Config:
     # AWS connection
     aws_access_key: str = environ.get("AWS_ACCESS_KEY")
     aws_access_key_secret: str = environ.get("AWS_ACCESS_KEY_SECRET")
+    aws_region_name: str = environ.get("AWS_REGION_NAME")
 
     # AWS Dynamo DB
     dynamo_table_name: str = environ.get("DYNAMO_TABLE_NAME", "2fa_authenticators")
